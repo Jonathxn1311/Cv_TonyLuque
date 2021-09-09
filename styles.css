@@ -18,7 +18,7 @@ html {
     color: var(--black);
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
-    }
+}
 
 /*Presentación*/
 .presentation__content{
@@ -50,7 +50,7 @@ html {
     }
 
 h1 {
-    color: white;
+    color: #fff;
     font-size: var(--font-big);
     letter-spacing: var(--spacing-big);
     }
@@ -64,7 +64,7 @@ h1 {
     }
 
 h2 {
-    color: white;
+    color: #fff;
     font-size: 1.8rem;
     font-weight: lighter;
     margin-top: 3px;
@@ -85,14 +85,14 @@ h2 {
     margin-top: 10px;
     max-width: 450px;
     width: 90%;
-    }
+}
 
 .presentation__description p {
     font-size: 1.2rem;
     padding-left: 10px;
     margin: 0 auto;
     width: 95%;
-    }
+}
 
 /*Sección principal*/
 main {
@@ -100,53 +100,53 @@ main {
     margin: 40px 0;
     margin-bottom: 0;
     width: 100%;
-    }
+}
 
 .main__experience {
     margin-bottom: 30px;
-    }
+}
 
 /*Títulos*/
 .title__all {
     display: flex;
     align-items: flex-start;
-    }
+}
 
 .title__all--square {
     background-color: var(--purple);
     height: 20px;
-    width: 40px;
-    }
+    width: 40px; 
+}
 
 /*Experiencia cards*/
 .experience__proyects {
     width: 95%;
-    }
+}
 
 h3 {
     color: var(--violet);
     font-size: 1.8rem;
-    padding-left: 20px;
-    }
+    padding-left: 20px;    
+}
 
 .experience__proyects--card {
     margin: 20px 0;
     padding-left: 60px;
     min-width: 250px;
-    width: 95%;
-    }
+    width: 95%;    
+}
 
 .proyects__description--subtitle {
-    display: flex;
-    }
+    display: flex;    
+}
 
 h4 {
     align-items: center;
     display: flex;
     font-size: 1.4rem;
     font-weight: 500;
-    margin-bottom: 5px;
-    }
+    margin-bottom: 5px;    
+}
 
 .proyects__description--title {
     background-image: url('./items/Rombo.svg');
@@ -156,50 +156,50 @@ h4 {
     display: inline-block;
     height: 15px;
     margin-right: 10px;
-    width: 15px;
-    }
+    width: 15px;    
+}
 
 h5 {
     color: var(--orange);
     font-size: 1.3rem;
-    line-height: 1.8rem;
-    }
+    line-height: 1.8rem;    
+}
 
 h5, .proyects__description p {
-    padding-left: 25px;
-    }
+    padding-left: 25px;    
+}
 
 .proyects__description p, .project__description-list {
     font-size: 1.4rem;
-    padding-top: 10px;
-    }
+    padding-top: 10px;    
+}
 
 .project__description-list {
-    padding-left: 35px;
-    }
+    padding-left: 35px;    
+}
 
 /*Sección de habilidades*/
 .main__abilities {
-    margin-bottom: 30px;
-    }
+    margin-bottom: 30px;    
+}
 
 .container {
     display: flex;
-    flex-wrap: wrap;
-    }
+    flex-wrap: wrap;    
+}
 
 .abilities {
     height: auto;
     margin-top: 20px;
     max-width: 300px;
     padding-left: 60px;
-    width: 90%;
-    }
+    width: 90%;    
+}
 
 .title__color {
     color: var(--orange);
-    font-weight: bold;
-    }
+    font-weight: bold;    
+}
 
 .abilities__texts {
     display: flex;
